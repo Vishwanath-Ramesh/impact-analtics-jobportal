@@ -1,13 +1,6 @@
-const isProd = String(process.env.NODE_ENV).toLowerCase() === 'production'
-
 function getServerConfiguration() {
-  if (isProd)
-    return {
-      baseURL: '',
-    }
-
   return {
-    baseURL: '',
+    baseURL: 'https://s3-ap-southeast-1.amazonaws.com',
   }
 }
 const serverConfig = getServerConfiguration()

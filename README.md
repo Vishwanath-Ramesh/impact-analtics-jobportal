@@ -1,22 +1,20 @@
 ## Summary
 
-This is a boilerplate setup project for React application
-
-For [Fullstack boilerplate](https://github.com/Vishwanath-Ramesh/fullstack-boilerplate)
+This is a project created when participating in Hackerearth's [Impact Analytics React Hiring challenge - 2021](https://assessment.hackerearth.com/challenges/hiring/impact-analytics-react-hiring-challenge/) challenge
 
 ## Tools & Libraries used
 
 - React
 - JavaScript
+- Material UI
 - Axios
 - Webpack
 - Babel
-- Eslint
-- Jest
+- Firebase
 
 ## Project Setup
 
-Install dependencies and devdependencies, run:
+Clone this repo and run the below
 
 using npm
 
@@ -39,3 +37,16 @@ npm run dev
 or
 yarn dev
 ```
+
+## Running the app
+
+To build the app, run:
+
+```shell
+npm run build
+or
+yarn build
+```
+
+You can also open
+[the deployed app on Firebase](https://impact-analtics-jobportal.web.app/).

@@ -40,13 +40,6 @@ module.exports = {
     'no-console': 'error', // Disallows usage of console in the code
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }], // Temporarily added to support JSX in .js file
-    /* The below rules were included by default in eslint recommendation('eslint:recommended') */
-    // "valid-typeof": "error", // Check for invalid typeof check
-    // "no-unsafe-negation": "error", // Checks for unexpected negation before the left operand. Eg: if(!one === two)
-    // "no-unused-vars": "error", // Checks for unused variables
-    // "no-unexpected-multiline": "error", //Checks for confusing multiline expressions
-    // "no-undef": "error", // Checks for usage of undeclared variables
-    // "semi": "off" //Disables mandatory for semi-colons at the end of the statement
   },
   env: {
     browser: true, // Set the environment as browser or not
